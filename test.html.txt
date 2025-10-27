@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>resume</title>
+<body>
+<h1><u>resume</u></h1>
+<p><b><i>ordered list</i></b></p>
+<ol>
+<li>name:</li>
+<li>address:</li>
+</ol>
+<p><b><i>unordered list</i></b></p>
+<ul>
+<li>experience</li>
+<li>skills</li>
+</ul>
+<p><b><i>description list</i></b></p>
+<dl>
+ <dt><b>C Programming</b></dt>
+ <dd>Learn basics of C language including loops, arrays, and functions.</dd>
+  </dl>
+<p><b><i>nested list</i></b></p>
+<ol>
+<li>skills</i>
+<ul>
+<li>btech cse</li>
+<li>mtech</li>
+</ul>
+</ol>
+<p><b><i>mixed list</i></b></p
+<ul>
+<li>hobby</li>
+<ol>
+<li>learning new about tech</li>
+</ol>
+</ul>
+<h6>special character</h6>
+<p>$copy;</p>
+</body>
+</head>
+</html>
