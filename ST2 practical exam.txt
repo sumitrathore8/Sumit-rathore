@@ -1,0 +1,73 @@
+<html>
+  <title>STUDENT PROFILES</title>
+  <style>
+.body{
+    justify-content: center;
+    display: flex;
+}
+.container{
+    width: 600%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px;
+    border: 2px solid black; 
+    margin: 10px;
+    border-width: 3px;
+}
+.class{
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    width: 200px;
+}
+.avtar{
+    border-radius: 50%;
+    background-color: #007bff;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto 15px auto;
+    color: white;
+}
+</style>
+</head>
+<body>
+    <div class="body">
+        <div class="container">
+<div class="class">
+    <div class="avtar">
+        SR
+    </div>
+    <b style="font-size: 27px;">sumit rathore</b></br>
+    B Tech - CSE</br>
+    Roll No:25CS2006</br>
+    1st Year
+</div>
+<div class="class">
+    <div class="avtar">
+        R
+    </div>
+    <b style="font-size: 27px;">rahul</b></br>
+    B Tech - IT</br>
+    Roll No:25IT2002</br>
+    1st Year
+</div>
+<div class="class">
+    <div class="avtar">
+       M
+    </div>
+    <b style="font-size: 27px;">monika</b></br>
+    B Tech - ECE</br>
+    Roll No:25EC2008</br>
+    1st Year
+</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
