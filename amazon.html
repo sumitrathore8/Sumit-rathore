@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AMAZON</title>
+        <style>
+             body {background-color:#131921}
+body {
+    background-color: #131921;
+}
+
+.navbar {
+    display: flex;               /* Put items in one horizontal row */
+    align-items: center;         /* Aligns everything vertically */
+    padding: 0.1px;               /* Space around content */
+}
+
+.logo {
+    width: 140px;
+    margin-right: 60px;          /* Space between logo & search bar */
+}
+
+.search-select {
+  border: none;
+  padding: 8px;
+  height: 38px;
+}
+
+.search-bar {
+    display: flex;  
+    overflow: hidden;           /* Search bar + button also in 1 row */
+}
+
+.search-input {
+    width: 300px;     /* Change width */
+    height: 35px;     /* Change height */
+    font-size: 25px;  /* Text size inside the bar */
+    padding: 5px;     /* Space inside the bar */
+    border: none;
+}
+
+.search-box button {
+    padding: 0px 15px;
+    margin-left: px;
+    cursor: pointer;
+    border: none;
+}
+
+.sign-in-btn {
+  background: none;     /* remove background */
+  border: none;         /* remove border */
+  color: white;         /* text color */
+  padding: 0;           /* remove button spacing */
+  cursor: pointer;      /* show hand icon on hover */
+  font-size: 12px;      /* optional: adjust size */
+  margin-left: 35px;
+}
+
+.cart-btn {
+  background: none;     /* remove background */
+  border: none;         /* remove border */
+  color: white;         /* text color */
+  padding: 0;           /* remove button spacing */
+  cursor: pointer;      /* show hand icon on hover */
+  font-size: 12px;      /* optional: adjust size */
+  margin-left: 35px;
+}
+
+.returns-order-btn {
+  background: none;     /* remove background */
+  border: none;         /* remove border */
+  color: white;         /* text color */
+  padding: 0;           /* remove button spacing */
+  cursor: pointer;      /* show hand icon on hover */
+  font-size: 12px;      /* optional: adjust size */
+  margin-left: 35px;
+}
+
+.item-select {
+  border: none;
+  padding: 9px;
+  height: 38px;
+}
+
+.filter-bar {
+  display: flex;
+  border: 1px solid gray;   /* Only ONE border */
+  border-radius: 6px;
+  overflow: hidden;         /* Makes corners smooth */
+}
+
+.filter-bar select {
+  padding: 10px;
+  border: none;             /* Remove each select border */
+  outline: none;            /* Remove focus border */
+  background-color: white;
+  width: 370px
+}
+
+.main-table {
+      border-collapse: collapse;
+      margin: 30px auto;
+      width: 90%;
+      table-layout: fixed;
+      padding: 8px;
+    }
+
+    .main-table td {
+      vertical-align: top;
+      text-align: center;
+      width: 50%;
+      padding: 8px;
+    }
+
+  
+    .sub-table {
+      border: 2px solid white;
+      border-collapse: collapse;
+      width: 100%;
+      height: 100%;
+    }
+
+    .sub-table th {
+      border: 2px solid white;
+      padding: 8px;
+      text-align: center;
+      width: 50%;
+    }
+        </style>
+    </head>
+    <body>
+     <div class="navbar">
+    <img src="Screenshot 2025-11-04 210432.png" height="50" class="logo">
+            <select class="search-select" style="height: 34px; width: 50px;">
+                <center><option>All</option></center>
+                <option>Electronics</option>
+                <option>Mobiles</option>
+                <option>Fashion</option>
+            </select>
+    <input type="text" class="search" placeholder="Search here..." style="height: 30px; width: 800px;">
+    <button class="search-btn" style="background-color: #F3A847;border: #CD9042;"><img src="2426803.png" height="28"</button>
+    <button class="sign-in-btn"style="background: none ; color: white">Hello,sign in<br><b>Accounts & Lists</b>
+    </button>
+    <button class="returns-order-btn">Returns<br><b>&Orders</b>
+    </button>
+    <button class="cart-btn">Cart</button>
+</div>
+</br>
+<div class="filter-bar">
+
+  <select>
+    <center></centre><option>Mobile</option>
+    <option>Apple</option>
+    <option>Samsung</option>
+    <option>OnePlus</option>
+    <option>Xiaomi</option>
+  </select>
+
+  <select>
+    <center><option>Laptops</option>
+    <option>LENOVO</option>
+    <option>HP</option>
+    <option>ASUS</option>
+    <option>APPLE</option>
+  </select>
+
+  <select>
+    <center><option>Watches</option>
+    <option>Rolex</option>
+    <option>Titan</option>
+    <option>Apple watch</option>
+    <option>Timax</option>
+  </select>
+
+  <select>
+    <center><option>Speakers</option>
+    <option>JBL</option>
+    <option>Boat</option>
+    <option>Realme</option>
+    <option>Sony</option>
+  </select>
+
+</div>
+<table class="main-table">
+  <tr>
+    <td>
+      <table class="sub-table">
+  <tr>
+  <th><img src="Apple-iPhone-17-pro-max.jpg" width="300"></th>
+   <th><img src="Samsung-Galaxy-S25-ultra.webp" width="300"></th>
+   </tr>
+   <tr>
+    <th><img src="OnePlus-13r-Amazon-India.jpg" height="195" width="300"></th>
+     <th><img src="Xiaomi-15-Ultra-Cameras.webp" height="195"width="300"></th>
+     </tr>
+</table>
+</td>
+<td>
+<table class="sub-table">
+  <tr>
+  <th><img src="OIP.webp" width="300"></th>
+   <th><img src="hp-omen-17-gaming-laptop-700px-v13.jpg" width="300"></th>
+   </tr>
+<tr>
+    <th><img src="macbook_pro_m4_pro_m4_max_launch_M4_date.jpeg" height="195" width="300"></th>
+     <th><img src="OIP (1).webp" height="195"width="300"></th>
+     </tr>
+</table>
+</tr>
+</td>
+
+  <tr>
+    <td>
+      <table class="sub-table">
+  <tr>
+  <th><img src="RX+DAYTONA+METEOR-PM_09.webp" width="300"></th>
+   <th><img src="maxresdefault.jpg" height="225" width="300"></th>
+   </tr>
+   <tr>
+    <th><img src="startframe__xspkedg7rsiu_xlarge.jpg" height="195" width="300"></th>
+     <th><img src="richard-mille-rm11-05-automatic-flyback-chronograph-gmt-3-1536x1024.jpg" height="195"width="300"></th>
+     </tr>
+</table>
+</td>
+<td>
+<table class="sub-table">
+  <tr>
+  <th><img src="OIP (2).webp" height="225" width="300"></th>
+   <th><img src="71iazmDR8hL._SL1500_-1-e1695829570222.jpg" width="300"></th>
+   </tr>
+<tr>
+    <th><img src="realme_speaker_launch.jpg" height="195" width="300"></th>
+     <th><img src="6538187cv21d.avif" height="195"width="300"></th>
+     </tr>
+</table>
+</tr>
+</td>
+
+
+    </body>
+</html>
